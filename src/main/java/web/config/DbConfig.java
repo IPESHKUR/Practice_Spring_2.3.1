@@ -34,6 +34,7 @@ public class DbConfig {
         dataSource.setPassword(env.getProperty("prop.password"));
         return dataSource;
     }
+
     private Properties jpaHibernateProperties() {
         Properties properties = new Properties();
         properties.put("hibernate.dialect", env.getProperty("hibernate.dialect"));

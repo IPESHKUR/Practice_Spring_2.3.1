@@ -6,7 +6,7 @@ import web.model.User;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
-//методы и их реализация для работы с БД
+
 @Repository
 public class UserDaoImpl implements UserDao {
     @PersistenceContext
